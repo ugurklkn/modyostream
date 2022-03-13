@@ -2,7 +2,7 @@
 
 if (isset($_GET['video_id']) && !empty($_GET['video_id'])){
     $video_id = $_GET['video_id'];
-    $url = "https://1x-bet516351.world/cinema";
+    $url = "https://lite-1x0702466.top/cinema";
     $post = [
         "AppId" => 3,
         "AppVer" => 1064,
@@ -15,9 +15,9 @@ if (isset($_GET['video_id']) && !empty($_GET['video_id'])){
     $headers = [
         'Accept: */*',
         'Accept-Language: tr-TR,tr;q=0.9',
-        'Host: 1x-bet516351.world',
-        'Origin: https://1x-bet516351.world',
-        'Referer: https://1x-bet516351.world/getZone/liveplayer/v2/vpc/index.html?id=3d3c0834-b7cb-b14d-9ccf-2634f2f4d180',
+        'Host: lite-1x0702466.top',
+        'Origin: https://lite-1x0702466.top/',
+        'Referer: https://lite-1x0702466.top/getZone/liveplayer/v2/vpc/index.html?id=3d3c0834-b7cb-b14d-9ccf-2634f2f4d180',
         'User-Agent: '.$_SERVER['HTTP_USER_AGENT'],
         'Content-Type: application/json',
         'Sec-Fetch-Mode: cors',
