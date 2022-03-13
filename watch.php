@@ -30,10 +30,6 @@ if (isset($_GET['video_id']) && !empty($_GET['video_id'])){
 
     $ch = curl_init();
     $arr = [
-        curl_setopt($ch, CURLOPT_PROXYPORT, '8080');
-        curl_setopt($ch, CURLOPT_PROXYTYPE, 'HTTP');
-        curl_setopt($ch, CURLOPT_PROXY,'212.174.242.102');
-        curl_setopt($ch, CURLOPT_PROXYUSERPWD,'');
         CURLOPT_URL => $url,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_USERAGENT => $_SERVER["HTTP_USER_AGENT"],
